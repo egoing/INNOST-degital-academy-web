@@ -10,7 +10,18 @@
     </style>
   </head>
   <body>
+    <input type="button" value="black" onclick="
+      target.style.color = 'white';
+      target.style.backgroundColor = 'black';
+    ">
+    <input type="button" value="white" onclick="
+      target.style.color = 'black';
+      target.style.backgroundColor = 'white';
+    ">
     <h1>WEB</h1>
+    <script>
+      let target = document.querySelector('h1');
+    </script>
     <ol>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">css</a></li>
         <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">javascript</a></li> 
